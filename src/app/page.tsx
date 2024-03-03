@@ -13,7 +13,8 @@ export default function Home() {
 						width={170}
 						height={27.12}
 					/>
-					<p className={`${font.paragraph} ${font.center}`}>
+					<p
+						className={`${font.paragraph} ${font.center} ${font['color-white']}`}>
 						creative collective in the making. <br /> shaping art and culture.
 						<br /> coming soon.
 					</p>
