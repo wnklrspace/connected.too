@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: 'Currently Connected, Too',
-	description: 'you are currently connected to ...',
+	description: 'You Are Currently Connected To ...',
 };
 
 export default function RootLayout({
