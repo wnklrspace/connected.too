@@ -1,5 +1,6 @@
 .main {
-	background-color: #f5963f;
+	/* background-color: #f5963f; */
+	background-color: #222;
 	min-height: 100dvh;
 	padding: 8rem 2rem 2rem;
 }
