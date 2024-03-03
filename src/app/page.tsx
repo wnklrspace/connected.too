@@ -5,6 +5,7 @@ import styles from './page.module.css';
 export default function Home() {
 	return (
 		<main className={styles.main}>
+			<div className={styles.shadow} />
 			<div className={styles['video-view']}>
 				<div className={styles.container}>
 					<Image

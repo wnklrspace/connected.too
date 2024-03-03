@@ -1,4 +1,5 @@
 .main {
+	position: relative;
 	/* background-color: #f5963f; */
 	background-color: #222;
 	min-height: 100dvh;
@@ -17,4 +18,18 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 2rem;
+}
+
+.shadow {
+	height: 1000px;
+	width: 1000px;
+	border-radius: 50%;
+	position: absolute;
+	top: -1100px;
+	left: 50%;
+	right: 0;
+	transform: translateX(-50%);
+	background: #fff;
+	filter: blur(90px);
+	z-index: 5;
 }
