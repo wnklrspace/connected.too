@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Currently Connected, Too',
+	title: 'Establishing connection ...',
 	description:
 		'Creative collective in the making. Shaping art and culture. Coming soon.',
 };

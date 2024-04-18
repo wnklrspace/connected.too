@@ -17,7 +17,8 @@ export default function Home() {
 					<p
 						className={`${font.paragraph} ${font.center} ${font['color-white']}`}>
 						creative collective in the making. <br /> shaping art and culture.
-						<br /> chapter 1 - coming soon.
+						<br />
+						coming soon.
 					</p>
 				</div>
 			</div>
