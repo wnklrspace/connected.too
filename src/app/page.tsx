@@ -8,12 +8,14 @@ export default function Home() {
 			<div className={styles.shadow} />
 			<div className={styles['video-view']}>
 				<div className={styles.container}>
-					<Image
-						src='./connected.too_logo.svg'
-						alt=''
-						width={170}
-						height={27.12}
-					/>
+					<div className={styles.rotationContainer}>
+						<Image
+							src='/ctoo_logo.png'
+							alt=''
+							width={20}
+							height={20}
+						/>
+					</div>
 					<p
 						className={`${font.paragraph} ${font.center} ${font['color-white']}`}>
 						creative collective in the making. <br /> shaping art and culture.

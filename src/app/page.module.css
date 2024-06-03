@@ -1,6 +1,5 @@
 .main {
 	position: relative;
-	/* background-color: #f5963f; */
 	background-color: #222;
 	min-height: 100dvh;
 	padding: 8rem 2rem 2rem;
@@ -29,7 +28,23 @@
 	left: 50%;
 	right: 0;
 	transform: translateX(-50%);
-	background: #fff;
+	background: white;
 	filter: blur(90px);
 	z-index: 5;
+}
+
+.rotationContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
