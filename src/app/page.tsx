@@ -12,15 +12,13 @@ export default function Home() {
 						<Image
 							src='/ctoo_logo.png'
 							alt=''
-							width={20}
-							height={20}
+							width={30}
+							height={30}
 						/>
 					</div>
 					<p
 						className={`${font.paragraph} ${font.center} ${font['color-white']}`}>
-						creative collective in the making. <br /> shaping art and culture.
-						<br />
-						coming soon.
+						establishing connection ...
 					</p>
 				</div>
 			</div>
