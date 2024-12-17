@@ -37,7 +37,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	animation: rotation 1s linear infinite;
+	animation: rotation 2s linear infinite;
 }
 
 @keyframes rotation {
