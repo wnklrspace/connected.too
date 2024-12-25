@@ -16,10 +16,18 @@ export default function Home() {
 							height={30}
 						/>
 					</div>
-					<p
-						className={`${font.paragraph} ${font.center} ${font['color-white']}`}>
-						establishing connection ...
-					</p>
+					<div className={styles['text-container']}>
+						<p
+							className={`${font.paragraph} ${font.center} ${font['color-white']} ${font['hover-animation']}`}>
+							c<span className={font.transparent}>onnected</span> t
+							<span className={font.transparent}>oo</span>
+						</p>
+
+						<p
+							className={`${font.paragraph} ${font.center} ${font['color-white-25']}`}>
+							Establishing connection ...
+						</p>
+					</div>
 				</div>
 			</div>
 		</main>
