@@ -18,7 +18,7 @@ export default function Home() {
 					</div>
 					<div className={styles['text-container']}>
 						<p
-							className={`${font.paragraph} ${font.center} ${font['color-white']} ${font['hover-animation']}`}>
+							className={`${font.paragraph} ${font.center} text-3xl font-bold underline ${font['color-white']} ${font['hover-animation']}`}>
 							c<span className={font.transparent}>onnected</span> t
 							<span className={font.transparent}>oo</span>
 						</p>
