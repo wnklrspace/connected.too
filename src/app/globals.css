@@ -9,6 +9,11 @@
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
 
+	--light-blue: #c7dfe1;
+	--light-pink: #e1c7e0;
+	--light-red: #e1c7c8;
+	--light-green: #dbe1c7;
+
 	--primary-glow: conic-gradient(
 		from 180deg at 50% 50%,
 		#16abff33 0deg,
@@ -45,6 +50,11 @@
 		--foreground-rgb: 255, 255, 255;
 		--background-start-rgb: 0, 0, 0;
 		--background-end-rgb: 0, 0, 0;
+
+		--light-blue: #c7dfe1;
+		--light-pink: #e1c7e0;
+		--light-red: #e1c7c8;
+		--light-green: #dbe1c7;
 
 		--primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
 		--secondary-glow: linear-gradient(
